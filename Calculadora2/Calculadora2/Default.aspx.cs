@@ -16,6 +16,7 @@ namespace Calculadora2
 
         protected void btnSomar_Click(object sender, EventArgs e)
         {
+
             lblResultado.Text = (float.Parse(txtN1.Text) + float.Parse(txtN2.Text)).ToString();
         }
     }
